@@ -1,0 +1,22 @@
+{
+  "name": "hexacore-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@honeycomb-app/hexacore": "^0.1.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.67"
+  }
+}
